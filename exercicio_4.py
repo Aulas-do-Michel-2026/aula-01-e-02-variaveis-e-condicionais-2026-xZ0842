@@ -41,7 +41,7 @@ Sim
 
 
 
-romossomo = input("Digite o cromossomo: ")
+cromossomo = input("Digite o cromossomo: ")
 posicao = int(input("Digite a posição: "))
 
 if cromossomo == "chr17":
