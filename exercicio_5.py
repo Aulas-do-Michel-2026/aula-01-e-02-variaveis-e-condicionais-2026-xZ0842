@@ -1,5 +1,5 @@
 """
-#### Exercício 3 - Identificar se a variante está no gene BRCA1 - Versão 2.
+#### Exercício 5 - Identificar se a variante está no gene BRCA1 - Versão 2.
 
 Receba 3 inputs do usuário:
 1) O cromossomo de uma variante. Ele virá escrito como texto e da seguinte forma "chr1", "chr2", etc.
@@ -55,3 +55,27 @@ Resposta:
 Não
 
 """
+
+
+
+
+cromossomo = input("Digite o cromossomo: ")
+genoma_referencia = input("Digite o genoma de referência: ")
+posicao = int(input("Digite a posição: "))
+
+
+if cromossomo == "chr17":
+    if genoma_referencia == "hg19":
+        if 41196312 <= posicao <= 41277500:
+            print("Sim")
+        else:
+            print("Não")
+    elif genoma_referencia == "hg38":
+        if 43044295 <= posicao <= 43125483:
+            print("Sim")
+        else:
+            print("Não")
+    else:
+        print("Não")
+else: 
+    print("Não")
