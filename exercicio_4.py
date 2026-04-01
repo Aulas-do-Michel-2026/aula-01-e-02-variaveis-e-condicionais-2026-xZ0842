@@ -1,5 +1,5 @@
 """
-#### Exercício 3 - Identificar se a variante está no gene BRCA1 - Versão 1.
+#### Exercício 4 - Identificar se a variante está no gene BRCA1 - Versão 1.
 
 Receba 2 inputs do usuário:
 1) O cromossomo de uma variante. Ele virá escrito como texto e da seguinte forma "chr1", "chr2", etc.
